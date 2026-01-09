@@ -188,15 +188,16 @@ nav .menu a{
     background-color: #ffc60b;
     cursor: pointer;
 }
+/* header end */
  .knowledge {
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
     /* text-align: center; */
-    padding-top : 70px
+    padding-top : 70px;
 
 }
-/* hero part end */
+
 .knowledge h2 {
     font-size: 48px;
     font-weight: bold;
@@ -261,7 +262,7 @@ nav .menu a{
   justify-content: center;
   display: flex;
  margin: 0 auto;
- 
+ margin-top: 120px;
    
 }
 .solution-container{
@@ -270,27 +271,21 @@ nav .menu a{
   display: flex;
  margin: 0 auto;
   justify-content: space-between; 
-  background-color: #ffffff;;
-  border-radius: 10px;
- 
  padding: 0 120px 120px 120px;
   
 }
-
+.know-image{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
 .solution-container-one{
 width: 85%;
 min-width: 569px;
-
-
 padding-bottom: 84.3px;
 padding-left: 232px;
 
 }
-.img{
-  
-  width: 569px;
-  height: 723px;
-} 
+
 .small-text{
     font-size: 16px;
     font-weight: 500;
@@ -356,7 +351,7 @@ padding-top: 16px;
  width: 85%;
  max-width: 1360px;
  background-color: #F7F6F2;
- border: 10px;
+ border-radius: 12px;
  margin: 0 auto;
  
 }
