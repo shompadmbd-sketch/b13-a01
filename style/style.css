@@ -69,7 +69,7 @@ nav .menu a{
 /* hero-banner start */
 #hero{  
      background-image:
-    url('/images/hero-bg.png');
+    url('../images/hero-bg.png');
   
    background-repeat: no-repeat;
    display: flex; 
