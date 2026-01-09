@@ -81,7 +81,7 @@ nav .menu a{
   
    
 } 
-   
+   /* hero section start */
 .hero-content{
     width: 1360px;
     height: 296px; 
@@ -193,6 +193,7 @@ nav .menu a{
     padding-top : 70px
 
 }
+/* hero part end */
 .knowledge h2 {
     font-size: 48px;
     font-weight: bold;
