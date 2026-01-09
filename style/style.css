@@ -106,7 +106,6 @@ nav .menu a{
   align-items: center;
   border-radius: 50px;
  
-
 }
 .hero-text img{
     width: 30px;
@@ -300,6 +299,7 @@ padding-left: 232px;
     line-height: 58px;
     width: 700px;
     height: 116px;
+    color: #001931;
     
 }
   
@@ -313,7 +313,6 @@ padding-left: 232px;
   padding-top: 30px;
   text-align: left;
   color: #627382;
-  
   
 
 }
