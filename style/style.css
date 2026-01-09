@@ -96,7 +96,7 @@ nav .menu a{
 }
 
 .hero-text{
-    padding: 8px 16px;
+    padding: 5px 16px;
     color: #30B868;
    margin: 0 auto;
   font-size: 16px;
@@ -105,7 +105,6 @@ nav .menu a{
   display: inline-flex;
   align-items: center;
   border-radius: 50px;
- 
  
 
 }
