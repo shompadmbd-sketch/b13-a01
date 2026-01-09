@@ -15,6 +15,7 @@
   font-optical-sizing: auto;
 
 }
+/* header start */
 .logo img{
     width: 139px;
     height: 60px;
@@ -64,6 +65,8 @@ nav .menu a{
 .menu li{
     gap: 32px;
 }
+/* header end */
+/* hero-banner start */
 #hero{  
      background-image:
     url('/images/hero-bg.png');
@@ -81,7 +84,7 @@ nav .menu a{
   
    
 } 
-   /* hero section start */
+    
 .hero-content{
     width: 1360px;
     height: 296px; 
@@ -423,9 +426,10 @@ footer {
     font-size: 12px;
 }
  hr{
-     width: 80%;
+     width: 65%;
      margin: 0 auto;
-     background-color: #FFFFFF;
+     height: 1px;
+    margin-bottom: 30px;
  }
 .copy-right-content p {
     text-align: center;
