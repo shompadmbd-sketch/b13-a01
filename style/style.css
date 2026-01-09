@@ -196,21 +196,24 @@ nav .menu a{
     height: 32px;
     margin: 0 auto;
     display: block;
+    
 
 }
 .card{
     
     background-color: #FFFFFF;
     display: flex;
-    padding: 24px;
+    
     justify-content: center;
-    gap: 16px;  
+    gap: 16px; 
+    
     
  
    
     
 
-}
+} 
+  
 .card-card{
     width: 322px;
     height: 300px;
@@ -219,6 +222,10 @@ nav .menu a{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    padding: 24px;
+    display: flex;
+   
+    
 
 }
    .heading-tag{
@@ -250,3 +257,94 @@ nav .menu a{
     line-height: 20px;
     padding-top: 16px;
   }
+
+#solution{
+  
+  justify-content: center;
+  display: flex;
+ margin: 0 auto;
+ 
+  
+   
+}
+.solution-container{
+  width: 85%;                                      
+  min-width: 1360px;
+  
+  display: flex;
+ margin: 0 auto;
+  justify-content: space-between; 
+ 
+ padding: 0 120px 120px 120px;
+  
+}
+
+.solution-container-one{
+width: 85%;
+min-width: 569px;
+
+
+padding-bottom: 84.3px;
+padding-left: 232px;
+
+}
+.img{
+  
+  width: 569px;
+  height: 723px;
+} 
+.small-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 120px;
+    color: #30B868;
+}
+.text{
+    padding-top: 16px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    width: 700px;
+    height: 116px;
+    
+}
+  
+.para-one{
+  width: 760px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  text-align: left;
+  color: #627382;
+  
+  
+
+}
+.font-love{
+  
+  padding-top: 40px;
+  width: 700px;
+  height: 20px;
+  gap: 6px;
+}
+.font-p{
+padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  gap: 6px;
+  
+  display: flex;
+  align-items: flex-start; 
+
+}
+.font-p img{
+ width: 20px;
+ height: 20px;
+ margin-right: 6px;
+}
+
