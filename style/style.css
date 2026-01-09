@@ -28,6 +28,7 @@
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600px;
+    cursor: pointer;
 }
 .btn:hover{
     color: white;
@@ -148,8 +149,13 @@ nav .menu a{
     display: inline-flex;
     gap: 8px;
     border-radius: 10px;
-
+    cursor: pointer;
 }
+  .btn-btn:hover{
+    color: white;
+    background-color: #ffc60b;
+   
+  }
 .btn-btn img{
     width: 20px;
     height: 20px;
@@ -168,7 +174,13 @@ nav .menu a{
     gap: 8px;
     border-radius: 10px;
     border: 1px solid white;
+    cursor: pointer;
 
+}
+.btn-btn-btn:hover{
+    color: white;
+    background-color: #ffc60b;
+    cursor: pointer;
 }
 
 #card-note{
@@ -337,7 +349,7 @@ padding-top: 16px;
   font-weight: 500;
   line-height: 20px;
   gap: 6px;
-  
+  color: #001931;
   display: flex;
   align-items: flex-start; 
 
@@ -347,4 +359,41 @@ padding-top: 16px;
  height: 20px;
  margin-right: 6px;
 }
+#call{
+    padding-bottom: 120px;
+    justify-content: center;
+    text-align: center;
+}
+.call-container{
+ 
+ width: 85%;
+ max-width: 1360px;
+ background-color: #627382;
+ margin: 0 auto;
+ 
+}
 
+.call-container-one{
+    padding: 80px 40px ;
+}
+.call-container-one h2{
+    color: #001931;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 16px;
+}
+.call-container-one p{
+    width: 1280px;
+    height: 48px;
+    line-height: 24px;
+    text-align: center;
+    color: #b4cfdd;
+    padding-bottom: 10px;
+}
+.call-para{
+     line-height: 24px;
+    text-align: center;
+    color: #b4cfdd;
+    padding-top: 16px;
+}
