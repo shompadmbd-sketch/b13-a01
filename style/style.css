@@ -150,7 +150,8 @@ nav .menu a{
     gap: 8px;
     border-radius: 10px;
     cursor: pointer;
-}
+}  
+   /* hover task  */
   .btn-btn:hover{
     color: white;
     background-color: #ffc60b;
@@ -160,6 +161,7 @@ nav .menu a{
     width: 20px;
     height: 20px;
 }
+
 .btn-btn-btn{
     margin-left: 16px;
     margin-top: 32px;
@@ -176,7 +178,8 @@ nav .menu a{
     border: 1px solid white;
     cursor: pointer;
 
-}
+} 
+/* button hover task */
 .btn-btn-btn:hover{
     color: white;
     background-color: #ffc60b;
@@ -216,10 +219,6 @@ nav .menu a{
     padding: 60px 20px;
     box-shadow: 0 10px 30px  rgba(0,0,0,0.06);
     border-radius: 8px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     z-index: -1;
 }
 .img-container {
@@ -250,9 +249,9 @@ nav .menu a{
     margin-top: 16px;
     text-align: center;
 }
+/* main task */
 
-
-
+/* task part start */
 #solution{
   
   justify-content: center;
@@ -382,6 +381,7 @@ padding-top: 16px;
     color: #627382;
     padding-top: 16px;
 }
+/* task part end */
 /* footer start */
 
 footer {
@@ -433,3 +433,4 @@ footer {
     padding-bottom: 30px;
     
 }
+/* footer end */
