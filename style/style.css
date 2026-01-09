@@ -182,17 +182,47 @@ nav .menu a{
     background-color: #ffc60b;
     cursor: pointer;
 }
-
-#card-note{
+ .knowledge {
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
-    padding: 70px;
-    text-align: center;
-    justify-content: center;
-  
+    /* text-align: center; */
+    padding-top : 70px
+
 }
-.card-image{
+.knowledge h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+    text-align: center; 
+}
+.knowledge p {
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.card {
+    width: 322px;
+    height: 300px;
+    background-color: #ffffff;
+    padding: 60px 20px;
+    box-shadow: 0 10px 30px  rgba(0,0,0,0.06);
+    border-radius: 8px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    z-index: -1;
+}
+.img-container {
     width: 60px;
     height: 60px;
     margin: 0 auto;
@@ -201,74 +231,27 @@ nav .menu a{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.card-image img{
+.img-container img {
     width: 32px;
     height: 32px;
     margin: 0 auto;
-    display: block;
-    
-
 }
-.card{
-    
-    background-color: #FFFFFF;
-    display: flex;
-    
-    justify-content: center;
-    gap: 16px; 
-    
-    
- 
-   
-    
-
-} 
-  
-.card-card{
-    width: 322px;
-    height: 300px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 24px;
-    display: flex;
-   
-    
-
-}
-   .heading-tag{
-       color: #001931;
-     font-size: 48px;
-     font-weight: 700;
-     text-align: center;
-     line-height: 58px;
-     padding-bottom: 16px;
-   }
-   .para{
-    color: #627382;
-    font-size: 16px;
-    font-family: 400px;
-    line-height: 20px;
-    padding-bottom: 44px;
-   }
-   .card-card h3{ 
-    color: #001931;
+.card h3 {
     font-size: 24px;
     font-weight: 600;
-    line-height: 29px;
-    padding-top: 16px;
-
-   }
-  .card-card p{
-    font-size: 16px;
-    font-weight: 400;
+    color: #001931;
+    margin-top: 16px;
+    text-align: center;
+}
+.card p {
     line-height: 20px;
-    padding-top: 16px;
-  }
+    color: #627382;
+    margin-top: 16px;
+    text-align: center;
+}
+
+
 
 #solution{
   
@@ -276,16 +259,16 @@ nav .menu a{
   display: flex;
  margin: 0 auto;
  
-  
    
 }
 .solution-container{
   width: 85%;                                      
   min-width: 1360px;
-  
   display: flex;
  margin: 0 auto;
   justify-content: space-between; 
+  background-color: #ffffff;;
+  border-radius: 10px;
  
  padding: 0 120px 120px 120px;
   
@@ -311,6 +294,7 @@ padding-left: 232px;
     line-height: 20px;
     padding-top: 120px;
     color: #30B868;
+    text-transform: uppercase;
 }
 .text{
     padding-top: 16px;
@@ -368,7 +352,8 @@ padding-top: 16px;
  
  width: 85%;
  max-width: 1360px;
- background-color: #627382;
+ background-color: #F7F6F2;
+ border: 10px;
  margin: 0 auto;
  
 }
@@ -388,12 +373,63 @@ padding-top: 16px;
     height: 48px;
     line-height: 24px;
     text-align: center;
-    color: #b4cfdd;
+    color: #627382;
     padding-bottom: 10px;
 }
 .call-para{
      line-height: 24px;
     text-align: center;
-    color: #b4cfdd;
+    color: #627382;
     padding-top: 16px;
+}
+/* footer start */
+
+footer {
+    background-color: #001931;
+}
+.footer-content {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 139px;
+    height: 60px;
+    margin-left: -100px;
+}
+.social-container h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.fa-brands {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding-top: 3px;
+    background-color: #ffffff;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.fa-x-twitter .fa-linkedin-in .fa-facebook-f {
+    font-size: 12px;
+}
+ hr{
+     width: 80%;
+     margin: 0 auto;
+     background-color: #FFFFFF;
+ }
+.copy-right-content p {
+    text-align: center;
+    color: #ffffff;
+    line-height: 24px;
+    padding-bottom: 30px;
+    
 }
