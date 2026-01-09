@@ -216,5 +216,37 @@ nav .menu a{
     height: 300px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
 }
-    
+   .heading-tag{
+       color: #001931;
+     font-size: 48px;
+     font-weight: 700;
+     text-align: center;
+     line-height: 58px;
+     padding-bottom: 16px;
+   }
+   .para{
+    color: #627382;
+    font-size: 16px;
+    font-family: 400px;
+    line-height: 20px;
+    padding-bottom: 44px;
+   }
+   .card-card h3{ 
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    padding-top: 16px;
+
+   }
+  .card-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 16px;
+  }
